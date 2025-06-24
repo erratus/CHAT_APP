@@ -5,6 +5,7 @@ import Dashboard from './Dashboard'
 import { ContactsProvider } from '../contexts/ContactsProvider'
 import { ConversationsProvider } from '../contexts/ConversationsProvider';
 import { SocketProvider } from '../contexts/SocketProvider';
+import { ThemeProvider } from '../contexts/ThemeProvider';
 
 function App() {
   const [id, setId] = useLocalStorage('id')
@@ -20,7 +21,11 @@ function App() {
   )
 
   return (
-    id ? dashboard : <Login onIdSubmit={setId} />
+    <ThemeProvider>
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+        {id ? dashboard : <Login onIdSubmit={setId} />}
+      </div>
+    </ThemeProvider>
   )
 }
 
