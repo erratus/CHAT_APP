@@ -27,7 +27,7 @@ Connect, chat, and share messages instantly across devices on your local network
 ### 1. **Clone the Repository**
 ```sh
 git clone https://github.com/yourusername/chatpp.git
-cd CHATPP
+cd CHAT_APP
 ```
 
 ### 2. **Install Dependencies**
