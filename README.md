@@ -1,4 +1,4 @@
-# 💬 CHATPP
+# 💬 CHAT_APP
 
 A simple, real-time chat application built with React and Socket.io.  
 Connect, chat, and share messages instantly across devices on your local network!
@@ -26,7 +26,7 @@ Connect, chat, and share messages instantly across devices on your local network
 
 ### 1. **Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/chatpp.git
+git clone https://github.com/erratus/CHAT_APP.git
 cd CHAT_APP
 ```
 
