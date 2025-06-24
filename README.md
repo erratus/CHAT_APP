@@ -17,7 +17,7 @@ Connect, chat, and share messages instantly across devices on your local network
 
 ## 🖼️ Preview
 
-![Chat App Screenshot](https://user-images.githubusercontent.com/placeholder/chatpp-preview.png)
+![Chat App Screenshot](./client/public/image.png)
 <sub><sup>(Replace with your own screenshot!)</sup></sub>
 
 ---
@@ -84,5 +84,3 @@ MIT License
 - [Bootstrap](https://getbootstrap.com/)
 
 ---
-
-> Made with ❤️ for learning and fun!
