@@ -48,6 +48,16 @@ npm install
 npm start
 ```
 
+if having any troubles regarding versions
+run
+```sh
+$env:NODE_OPTIONS="--openssl-legacy-provider"
+```
+OR
+```sh
+set NODE_OPTIONS=--openssl-legacy-provider
+```
+
 ### 3. **Connect Devices**
 
 - Make sure both your PC and phone are on the same WiFi network.
