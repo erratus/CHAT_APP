@@ -18,7 +18,7 @@ Connect, chat, and share messages instantly across devices on your local network
 ## 🖼️ Preview
 
 ![Chat App Screenshot](./client/public/image.png)
-<sub><sup>(Replace with your own screenshot!)</sup></sub>
+<sub><sup></sup></sub>
 
 ---
 
